@@ -1,0 +1,23 @@
+q1 - *,-,/,+ <- operators
+   - 'hello', -88.8, 5 <- values
+
+q2 - spam <- variable and 'spam' <- string
+ 
+q3 - string(str), integer(int), floating integer(float)
+
+q4 - operators + variable + method invocations.
+
+q5 - "expression” is a combination of values and functions that are combined and interpreted by the compiler to create a new value. "Statement" is a standalone unit of execution that doesn't return anything.
+
+q6 - 20 
+
+q7 - both return the same thing ie 'spamspamspam'
+
+q8 - No because variables can't begin with numbers.
+
+q9 - floating point number - float(variable), integer - int(variable), string - str(variable)
+
+q10 - because we are asking the editors to print a mix of string and int, to change this we could use : 'I have eaten ' + str(99) + ' burritos.'
+
+len() returns the number of items in an object.
+round() returns a floating point number that is a rounded version of the number.
