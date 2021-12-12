@@ -1,0 +1,53 @@
+q1 - 2 values are true and false and are written as True and False.
+
+q2 - 3 boolean operators are AND, OR and NOT
+
+q3 - AND -> true tue    - true
+	    true false  - false
+	    false true  - false
+	    false false - false
+     
+     OR  -> true true   - true
+	    true false  - true
+	    false true  - true
+	    false false - false
+
+     NOT -> false - true
+	    true - false
+
+q4 -    i)  False
+	ii) False
+	iii)False
+	iv) False
+	v)  True
+
+q5 - ==, >, <, >=, <=, !=
+
+q6 - '==' is know as the equal to operator it is used to compare the equality of the 2 items. '=' is know as assignment operator it gives the value of an item to a variable.
+
+q7 - Conditions are made to evaluate the actions of a program by checking if the stated conditions in the program are true or false. 
+
+q9 - spam = input()
+if int(spam) == 1:
+    print("Hello")
+elif int(spam) == 2:
+    print("Howdy")
+else:
+    print("Greetings")
+
+q10 - control + c
+
+q11 - break goes out of the loop, continue just skips that iteration of the loop.
+
+q12 - No difference all of them mean the same in a loop
+
+q13 - for loop -> for x in range(10): print(x+1)
+    - while loop -> x = 0
+		    while x < 10 : 
+    			print (x+1)
+    			x += 1 
+
+q14 - spam.bacon() 
+
+round() gives the rounded floating point number of the input.
+abs() gives the absolute value of the number ie removes the negative sign.
