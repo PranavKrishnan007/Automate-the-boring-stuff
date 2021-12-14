@@ -1,0 +1,28 @@
+q1 - reduction in duplicacy of code.
+
+q2 - the function code executes when it is called. Definition is just basically writing what the functino has to do it doesn't run the function.
+
+q3 - 'def' 
+
+q4 - function: a set of instructions to achieve a desirable result.
+   - function calling: It calls the function or tells the compiler that in this step the function needs to be invoked.
+
+q5 - global scopes = 1
+
+q6 - it looses its value once the function call completes.
+
+q7 - return value is the value that the function will return. The value returned by a function can be used in a function.
+
+q8 - the function would return 'none'
+
+q9 - we can declare global keyword for the function to refer to.
+
+q10 - It defines a null value.
+
+q11 - Import is used to import code from one module to another ... ie 'import areallyourpetsnamederic' would import the content of the module areallyourpetsnamederic.
+
+q12 - spam.beacon()
+
+q13 - we can use the try and except statement to avoid crashing in case of an error.
+
+q14 - try clause runs till exceptions is encountered. Except is used to catch and handle the exceptions that are encountered in the try clause(google answer) 
