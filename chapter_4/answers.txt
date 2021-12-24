@@ -1,0 +1,34 @@
+q1 - [] is used in python for indicating that a variable is of the type list.
+
+q2 - spam[2] = 'hello'
+
+q3 - 'd'
+
+q4 - 'd'
+
+q5 - ['a', 'b']
+
+q6 - 1
+
+q7 - [3.14, 'cat', 11, 'cat', True, 99]
+
+q8 - [3.14, 11, True]
+
+q9 - + for concatenation and * for replication.
+
+q10 - append adds to the end of the list whereas insert pretty much adds wherever we ask it to add .... one before the specified element.
+
+q11 - remove() by value , pop() by index
+
+q12 - Both lists and strings can be passed to len(), have indexes and slices, be used in for loops, be concatenated or replicated and can be used with in and not in operators.
+
+q13 - the main difference between tuples and lists is that lists are mutable and tuples are immutable.(ie the value is changable)
+
+q14 - tuple = (42)
+
+q15 - tuple(list[]) for conversion to tuple and list[tuple()] for conversion to list.
+
+q16 - They contain the reference to the list.
+
+q17 - copy.copy(), can be used to make a duplicate copy of a mutable value like a list or dictionary, not just a copy of a reference. And copy.deepcopy() copies the inner lists as well.
+
