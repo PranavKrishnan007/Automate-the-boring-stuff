@@ -1,0 +1,16 @@
+q1 - *dictionary name* = {}
+
+q2 - dict = {'foo':42}
+
+q3 - list is mainly for ordered collection of values, whereas a dictionary data type is mostly a collection of datatypes that are used to store unordered values. 
+
+q4 - it gives and error because there is no key by the name 'foo'
+
+q5 - there is no difference because the 'cats' in spam also check for 'cats' in the keys the only difference would be if it were to check for 'cats' in spam.values()
+
+q6 - 'cats' in spam checks for the keys in the dictionary data type whereas the 'cats' in spam.values() checks if the 'cats' is a value of any of the keys.
+
+q7 - spam.setdefault('color','black') <- this would check if the key exists if yes, then it would output the value else if not it would create a new key and store the value 'black' in it.
+
+q8 - the module to be imported is - pprint
+   - the functions that can be used to 'pretty print' are - pprint.pprint() or pprint.pformat() 
