@@ -1,0 +1,23 @@
+q1 - escape characters are used to insert things in a string that would be otherwise illegal.
+
+q2 - \n is used for newline and \t is used for tab.
+
+q3 - we can use \\ in the code to tell the compiler that the second \ is part of the string.
+
+q4 - It isn't a problem we've used "" ie double quotes to demarkate the string.
+
+q5 - we can use use ''' ''' triple comments ie use multiline strings.
+
+q6 - 'e', 'Hello', 'Hello', 'lo, world!'
+
+q7 - 'HELLO', True, False
+
+q8 - ['Remember,', 'remember,', 'the', 'fifth', 'of', 'November'] 
+'There-can-be-only-one.'
+
+q9 - for right-justifying a string -> string.rjust(value)
+   - for left-justifying a string -> string.ljust(value)
+   - For centering a string -> string.center(value)
+
+q10 - For the beginning we use lstring()
+    - for the end we use rstrip()
