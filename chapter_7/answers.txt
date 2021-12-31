@@ -1,0 +1,28 @@
+q1 - re.compile() we import this to use regex objects.
+
+q2 - Like the things don't have to escaped. Its used to keep regular expressions meaningful and confusion-free.
+
+q3 - it searches for the regex objects in a passed string and returns the found data.
+
+q4 - we use group()
+
+q5 - group 0 would have the complete found  using search()
+     group 1 would have the values form the 1st paranthesis
+     group 2 would have the values from the 2nd paranthesis ie (\d\d\d-\d\d\d\d)
+
+q6 - we would have to escape the paranthesis and period using \ 
+
+q7 - when we use group() with findall() it returns a list of tuples of strings. if the group() is not used it returns a list of strings.
+
+q8 - | is used for choosing OR in a regular expression. When both occur the 1st instance is chosen.
+
+q9 - The ? character flags the group that precedes it as an optional part of the pattern and ? is also used denote that we desire python to use the non-greedy uproach.
+
+q10 - * means “match zero or more,” the + (or plus) means “match one or more”
+
+q11 - {3} is used for searching for only 3 instances. whereas {3,5} accepts instances 3, 4 and 5. 
+
+q12 - \d - for digits [0-9]
+    - \w - for all alphabets + digits ie [a-zA-Z0-9]
+    - \s - for all white space characters
+ 
