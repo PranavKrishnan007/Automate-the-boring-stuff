@@ -1,0 +1,13 @@
+q1 - no its not part of the standard python library... so we have do use 'pip install --user pyinputplus' for installation
+
+q2 - we use import pyinputplus as pyip so that we don't have to write the whole pyinputplus everytime to use it.
+
+q3 - inputInt() only allows for integer input whereas inputFloat() only allows for floating integer input.
+
+q4 - pyip.inputInt(min=0, lessThan=100)
+
+q5 - allowRegex gets the values in the form of regular expressions that are allowed as a valid input and the opposite in the case of blockRegex.
+
+q6 - it gives a retrylimitexception. 
+
+q7 - it prints 'hello' when blank input is entered 3 times.
