@@ -1,0 +1,5 @@
+>>> p = Path('spam.txt')
+>>> p.write_text("Hello, world!")
+13
+>>> p.read_text()
+'Hello, world!' 

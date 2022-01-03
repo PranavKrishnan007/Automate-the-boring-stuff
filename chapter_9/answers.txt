@@ -1,0 +1,23 @@
+q1 - A relative path is relative to the current directory.
+
+q2 - An absolute path starts with the anchor.(/)
+
+q3 - ('C:/Users/Al')
+
+q4 - It would show error because none have Path module in them and hence can't be joined using /. I.E. / is not used to connect 2 strings.
+
+q5 - os.getcwd() gets the current working directory.
+   - os.chdir() changes the working directory to the one given inside the ().
+
+q6 - . refers to the current folder/directory and .. refers to the directory/folder before the currrent one.(parent directory)
+
+q7 - C:\bacon\eggs <- dir name
+   - spam.txt <- base name
+
+q8 - 'r' for read only, 'w' for write, 'a' for appending. {'w' overwrites whereas 'a' appends}
+
+q9 - The existing file's contents will be overwritten.
+
+q10 - read() gives just one single string from the entire file. whereas readlines() stores the value of each string in the file creating a list of strings.
+
+q11 - shelf value resembles a dictionary data structure.
