@@ -49,3 +49,47 @@ since these permanently delete the file/folders so its a good idea to first chec
 this is the use case ... I couldn't get it to work but will try later.
 
 ### 5. Walking a Directory Tree
+``` 
+this can be done using os.walk() and by passing the parameter of the path of the folder that needs to be walked.
+
+os.walk() will return 3 values on each iteration...
+• A string of the current folder’s name
+• A list of strings of the folders in the current folder
+• A list of strings of the files in the current folder
+```
+
+### Compressing files with zipfile module
+1. Reading ZIP files
+```
+>>> import zipfile, os
+>>> from pathlib import Path
+>>> p = Path.home()
+>>> exampleZip = zipfile.ZipFile(p / 'example.zip')
+>>> exampleZip.namelist()
+['spam.txt', 'cats/', 'cats/catnames.txt', 'cats/zophie.jpg'] >>> spamInfo = exampleZip.getinfo('spam.txt')
+>>> spamInfo.file_size
+13908
+>>> spamInfo.compress_size
+3828
+>>> f'Compressed file is {round(spamInfo.file_size / spamInfo .compress_size, 2)}x smaller!'
+)
+'Compressed file is 3.63x smaller!'
+>>> exampleZip.close()
+```
+2. Extracting from ZIP files
+```
+>>> import zipfile, os
+>>> from pathlib import Path
+>>> p = Path.home()
+>>> exampleZip = zipfile.ZipFile(p / 'example.zip')
+>>> exampleZip.extractall() >>> exampleZip.close()
+```
+can pass directory name to extractall()
+
+3. Creating and adding to ZIP files
+```
+>>> import zipfile
+>>> newZip = zipfile.ZipFile('new.zip', 'w')
+>>> newZip.write('spam.txt', compress_type=zipfile.ZIP_DEFLATED) >>> newZip.close()
+```
+<hr>
